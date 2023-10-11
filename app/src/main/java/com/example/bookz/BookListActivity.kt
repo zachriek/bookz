@@ -33,7 +33,7 @@ class BookListActivity : AppCompatActivity() {
     }
 
     private fun handleNavigateToBrowser(bookData: BookData) {
-        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/search?q=${bookData.title}"))
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/search?q=Buku ${bookData.title}"))
         startActivity(intent)
     }
 }
