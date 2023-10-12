@@ -2,7 +2,7 @@
 <resources>
     <style name="AppHeading" parent="Widget.MaterialComponents.TextView">
         <item name="android:textColor">@color/primary</item>
-        <item name="android:textSize">24dp</item>
+        <item name="android:textSize">24sp</item>
         <item name="android:textStyle">bold</item>
     </style>
 

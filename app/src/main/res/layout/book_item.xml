@@ -39,7 +39,7 @@
                 style="@style/CardTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Card Title Card Title Card Title" />
+                android:text="Card Title" />
 
             <com.google.android.material.textview.MaterialTextView
                 android:id="@+id/book_item_author"
