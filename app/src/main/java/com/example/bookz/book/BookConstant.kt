@@ -163,7 +163,110 @@ object BookConstant {
             )
         )
 
-//        Buku
+//        Buku Bisnis
+        data.add(
+            BookData(
+                id = "chasing_unicorns",
+                categoryId = "bisnis",
+                title = "Chasing Unicorns",
+                author = "Nicko Widjaja",
+                image = R.drawable.book_chasing_unicorns
+            )
+        )
+
+        data.add(
+            BookData(
+                id = "the_intelligent_investor",
+                categoryId = "bisnis",
+                title = "The Intelligent Investor",
+                author = "Benjamin Graham",
+                image = R.drawable.book_inteliigent_investor
+            )
+        )
+
+//        Buku Fantasi
+        data.add(
+            BookData(
+                id = "the_line_between_loss_wonders",
+                categoryId = "fantasi",
+                title = "The Line Between Loss & Wonders",
+                author = "Ayra Sirait",
+                image = R.drawable.book_the_line
+            )
+        )
+
+        data.add(
+            BookData(
+                id = "harry_potter_and_the_sorcerers_stone",
+                categoryId = "fantasi",
+                title = "Harry Potter And The Sorcerers Stone",
+                author = "J.K. Rowling",
+                image = R.drawable.book_harry_potter_1
+            )
+        )
+
+//        Buku Komik
+        data.add(
+            BookData(
+                id = "big_nate_14",
+                categoryId = "komik",
+                title = "Big Nate #14",
+                author = "Lincoln Peirce",
+                image = R.drawable.book_big_nate_14
+            )
+        )
+
+        data.add(
+            BookData(
+                id = "sapiens_a_graphic_history",
+                categoryId = "komik",
+                title = "Sapiens: A Graphic History",
+                author = "Yuval Noah Harari",
+                image = R.drawable.book_sapiens
+            )
+        )
+
+//        Buku Motivasi
+        data.add(
+            BookData(
+                id = "think_and_grow_rich",
+                categoryId = "motivasi",
+                title = "Think and Grow Rich",
+                author = "Napoleon Hill",
+                image = R.drawable.book_think_grow_rich
+            )
+        )
+
+        data.add(
+            BookData(
+                id = "factfulness",
+                categoryId = "motivasi",
+                title = "Factfulness",
+                author = "Hans Rosling",
+                image = R.drawable.book_factfulness
+            )
+        )
+
+//        Buku Romantis
+        data.add(
+            BookData(
+                id = "winter_in_tokyo",
+                categoryId = "romantis",
+                title = "Winter in Tokyo",
+                author = "Ilana Tan",
+                image = R.drawable.book_winter_in_tokyo
+            )
+        )
+
+        data.add(
+            BookData(
+                id = "mismatch",
+                categoryId = "romantis",
+                title = "MetroPop: Mismatch",
+                author = "Arata Kim",
+                image = R.drawable.book_mismatch
+            )
+        )
 
         return data
     }

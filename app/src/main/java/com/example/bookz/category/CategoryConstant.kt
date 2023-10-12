@@ -88,8 +88,8 @@ object CategoryConstant {
 
         data.add(
             CategoryData(
-                id = "pengembangan_diri",
-                name = "Pengembangan Diri",
+                id = "motivasi",
+                name = "Motivasi",
                 image = R.drawable.ic_book_3
             )
         )
