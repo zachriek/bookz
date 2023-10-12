@@ -17,15 +17,12 @@ class CategoryViewHolder(
         if (viewType == CategoryAdapter.ViewType.LINEAR.ordinal) {
             name = categoryItemView.findViewById(R.id.category_item_name)
             image = categoryItemView.findViewById(R.id.category_item_image)
-
-            name?.text = data.name
-            image?.setImageResource(data.image)
         } else {
             name = categoryItemView.findViewById(R.id.category_item_name_grid)
             image = categoryItemView.findViewById(R.id.category_item_image_grid)
-
-            name?.text = data.name
-            image?.setImageResource(data.image)
         }
+
+        name?.text = data.name
+        image?.setImageResource(data.image)
     }
 }
